@@ -143,13 +143,13 @@ FROM silver.erp_loc_a101
 ORDER BY country;
 
 -- ====================================================================
--- Checking 'silver.erp_px_category_g1v2'
+-- Checking 'silver.erp_px_cat_g1v2'
 -- ====================================================================
 -- Check for Unwanted Spaces
 -- Expectation: No Results
 SELECT 
     * 
-FROM silver.erp_px_category_g1v2
+FROM silver.erp_px_cat_g1v2
 WHERE category != TRIM(category) 
    OR subcategory != TRIM(subcategory) 
    OR maintenance != TRIM(maintenance);
@@ -157,4 +157,4 @@ WHERE category != TRIM(category)
 -- Data Standardization & Consistency
 SELECT DISTINCT 
     maintenance 
-FROM silver.erp_px_category_g1v2;
+FROM silver.erp_px_cat_g1v2;
