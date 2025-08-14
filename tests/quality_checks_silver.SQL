@@ -78,7 +78,7 @@ FROM silver.crm_product_info;
 SELECT 
     * 
 FROM silver.crm_product_info
-WHERE product_end_dt < product_start_dt;
+WHERE product_end_date < product_start_date;
 
 -- ====================================================================
 -- Checking 'silver.crm_sales_details'
@@ -86,36 +86,36 @@ WHERE product_end_dt < product_start_dt;
 -- Check for Invalid Dates
 -- Expectation: No Invalid Dates
 SELECT 
-    NULLIF(sls_due_dt, 0) AS sls_due_dt 
+    NULLIF(sales_due_date, 0) AS sales_due_date 
 FROM bronze.crm_sales_details
-WHERE sls_due_dt <= 0 
-    OR LEN(sls_due_dt) != 8 
-    OR sls_due_dt > 20500101 
-    OR sls_due_dt < 19000101;
+WHERE sales_due_date <= 0 
+    OR LEN(sales_due_date) != 8 
+    OR sales_due_date > 20500101 
+    OR sales_due_date < 19000101;
 
 -- Check for Invalid Date Orders (Order Date > Shipping/Due Dates)
 -- Expectation: No Results
 SELECT 
     * 
 FROM silver.crm_sales_details
-WHERE sls_order_dt > sls_ship_dt 
-   OR sls_order_dt > sls_due_dt;
+WHERE sales_order_date > sales_ship_date 
+   OR sales_order_date > sales_due_date;
 
 -- Check Data Consistency: Sales = Quantity * Price
 -- Expectation: No Results
 SELECT DISTINCT 
-    sales_sls,
-    sls_quantity,
-    sls_price 
+    sales_sales,
+    sales_quantity,
+    sales_price 
 FROM silver.crm_sales_details
-WHERE sales_sls != sls_quantity * sls_price
-   OR sales_sls IS NULL 
-   OR sls_quantity IS NULL 
-   OR sls_price IS NULL
-   OR sales_sls <= 0 
-   OR sls_quantity <= 0 
-   OR sls_price <= 0
-ORDER BY sales_sls, sls_quantity, sls_price;
+WHERE sales_sales != sales_quantity * sales_price
+   OR sales_sales IS NULL 
+   OR sales_quantity IS NULL 
+   OR sales_price IS NULL
+   OR sales_sales <= 0 
+   OR sales_quantity <= 0 
+   OR sales_price <= 0
+ORDER BY sales_sales, sales_quantity, sales_price;
 
 -- ====================================================================
 -- Checking 'silver.erp_customer_az12'
@@ -138,9 +138,9 @@ FROM silver.erp_customer_az12;
 -- ====================================================================
 -- Data Standardization & Consistency
 SELECT DISTINCT 
-    cntry 
+    country 
 FROM silver.erp_loc_a101
-ORDER BY cntry;
+ORDER BY country;
 
 -- ====================================================================
 -- Checking 'silver.erp_px_category_g1v2'
