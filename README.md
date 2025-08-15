@@ -36,8 +36,9 @@ We implement the Medallion Architecture with three layers:<br>
 🛠 Git & GitHub – Version control and collaboration.<br>
 📐 Draw.io – Data architecture & flow diagrams.<br>
 🗒 Notion – Project planning, templates, and documentation.<br>
+Notion PDF:<br>
+[dwh-notion.pdf](https://github.com/user-attachments/files/21800047/dwh-notion.pdf)
 
-[Data Warehouse Project 24df741f2c2380968ccde5f1fb78b974.pdf](https://github.com/user-attachments/files/21800035/Data.Warehouse.Project.24df741f2c2380968ccde5f1fb78b974.pdf)
 
 <br>
 📌 Project Requirements<br>
