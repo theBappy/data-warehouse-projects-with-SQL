@@ -35,9 +35,10 @@ We implement the Medallion Architecture with three layers:<br>
 🖥 SSMS (SQL Server Management Studio) – GUI for managing & querying databases.<br>
 🛠 Git & GitHub – Version control and collaboration.<br>
 📐 Draw.io – Data architecture & flow diagrams.<br>
-🗒 Notion – Project planning, templates, and documentation.<br>
+🗒 Notion – Project planning, templates, and documentation.<br><br>
 Notion PDF:<br>
-[dwh-notion.pdf](https://github.com/user-attachments/files/21800047/dwh-notion.pdf)
+(https://github.com/user-attachments/files/21800069/dwh-notion.pdf)
+
 
 
 <br>
@@ -51,6 +52,7 @@ Notion PDF:<br>
 - Documentation: Clear data model documentation for both business & technical teams.<br>
 
 <br>
+
 📊 Business Insights<br>
 Deliver SQL-based analytics to uncover:<br>
 - 👥 Customer Behavior – Purchasing patterns & segmentation.<br>
