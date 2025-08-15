@@ -37,6 +37,8 @@ We implement the Medallion Architecture with three layers:<br>
 📐 Draw.io – Data architecture & flow diagrams.<br>
 🗒 Notion – Project planning, templates, and documentation.<br>
 
+[Data Warehouse Project 24df741f2c2380968ccde5f1fb78b974.pdf](https://github.com/user-attachments/files/21800035/Data.Warehouse.Project.24df741f2c2380968ccde5f1fb78b974.pdf)
+
 <br>
 📌 Project Requirements<br>
 🎯 Objective: Build a modern data warehouse in SQL Server to consolidate sales data, enabling analytical reporting and data-driven decision-making.<br><br>
