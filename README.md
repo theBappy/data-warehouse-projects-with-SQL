@@ -39,6 +39,8 @@ We implement the Medallion Architecture with three layers:<br>
 Notion PDF:<br>
 (https://github.com/user-attachments/files/21800069/dwh-notion.pdf)<br>
 
+<img width="426" height="435" alt="1" src="https://github.com/user-attachments/assets/3ad659b6-1597-46bd-8ded-99d48183ce87" />
+<img width="295" height="304" alt="3" src="https://github.com/user-attachments/assets/446d12c3-3600-41b7-91fa-445f0c002fda" />
 
 
 <br>
