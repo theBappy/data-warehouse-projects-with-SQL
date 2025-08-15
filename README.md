@@ -37,7 +37,7 @@ We implement the Medallion Architecture with three layers:<br>
 📐 Draw.io – Data architecture & flow diagrams.<br>
 🗒 Notion – Project planning, templates, and documentation.<br><br>
 Notion PDF:<br>
-(https://github.com/user-attachments/files/21800069/dwh-notion.pdf)
+(https://github.com/user-attachments/files/21800069/dwh-notion.pdf)<br>
 
 
 
