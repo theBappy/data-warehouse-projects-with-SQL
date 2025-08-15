@@ -3,12 +3,16 @@
 🚀 Comprehensive Data Warehousing & Analytics Solution
 This project demonstrates a complete end-to-end data warehouse implementation — from raw data ingestion to actionable business insights. It follows industry best practices in Data Engineering, Data Modeling, and Analytics to deliver a portfolio-ready showcase of skills.<br>
 <br>
+
+
 🏛 Architecture Overview<br>
 We implement the Medallion Architecture with three layers:<br>
 🥉 Bronze – Stores raw data exactly as received from source systems (CSV → SQL Server).<br>
 🥈 Silver – Performs data cleansing, standardization, and normalization for analysis readiness.<br>
 🥇 Gold – Houses business-ready data in a star schema optimized for reporting and analytics.<br>
 <br>
+<img width="800" height="400" alt="medallion_architecture" src="https://github.com/user-attachments/assets/76e11962-a2ea-420c-b067-18afd5b79eae" />
+
 
 📖 Project Overview<br>
 - 🗄 Data Architecture – Designing a modern data warehouse using Medallion architecture.<br>
