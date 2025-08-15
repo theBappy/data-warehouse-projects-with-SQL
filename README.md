@@ -1,6 +1,6 @@
 📊 Data Warehouse & Analytics Project<br>
 <br>
-🚀 Comprehensive Data Warehousing & Analytics Solution
+🚀 Comprehensive Data Warehousing & Analytics Solution<br>
 This project demonstrates a complete end-to-end data warehouse implementation — from raw data ingestion to actionable business insights. It follows industry best practices in Data Engineering, Data Modeling, and Analytics to deliver a portfolio-ready showcase of skills.<br>
 <br>
 
