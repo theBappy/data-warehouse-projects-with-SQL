@@ -65,7 +65,7 @@ Deliver SQL-based analytics to uncover:<br>
 
 <br>
 👋 About Me
-Hi, I’m theBappy — passionate about Data Engineering, Analytics, and BI.<br>
+Hi, I’m theBappy — a passionate Programmer.<br>
 
 📧 Email: <br>
 🌐 Portfolio: <br>
