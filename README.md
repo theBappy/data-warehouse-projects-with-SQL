@@ -28,12 +28,12 @@ Data Analytics
 
 -------------------------------------------------
 ### Tools used:
-Datasets: Access to the project dataset (csv files).
-SQL Server Express: Lightweight server for hosting your SQL database.
-SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
-Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
-DrawIO: Design data architecture, models, flows, and diagrams.
-Notion: Get the Project Template from Notion
+Datasets: Access to the project dataset (csv files).<br>
+SQL Server Express: Lightweight server for hosting your SQL database.<br>
+SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.<br>
+Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.<br>
+DrawIO: Design data architecture, models, flows, and diagrams.<br>
+Notion: Get the Project Template from Notion<br>
 Notion Project Steps: Access to All Project Phases and Tasks.
 
 -------------------------------------------------
